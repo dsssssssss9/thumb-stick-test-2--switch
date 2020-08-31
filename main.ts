@@ -8,7 +8,7 @@ pins.setPull(DigitalPin.P8, PinPullMode.PullUp)
 basic.forever(function () {
     led.plot(pins.map(
     pins.analogReadPin(AnalogPin.P0),
-    1,
+    10,
     1019,
     4,
     0
